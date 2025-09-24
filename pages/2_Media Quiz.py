@@ -34,6 +34,30 @@ def quiz_section():
     else:
         st.write(f"I don't read as much as I used to, but those might be worth checking out!")
     st.write('---')
+    st.subheader("4. What's your favorite place to relax and enjoy a movie/album/book?")
+    relax_place = st.text_input("Type your answer here:")
+    if relax_place == "couch":
+        st.write("Same here! There's nothing better than my couch.")
+    elif relax_place:
+        st.write(f"{relax_place} sounds like a great place to unwind! I prefer my couch.")
+    else:
+        st.write("Finding a good place to relax is important!")
+    st.write('---')
+    st.subheader("5. What's your favorite thing to snack on while relaxing?")
+    snack = st.selectbox("Choose a snack:", ('Popcorn', 'Chips', 'Chocolate', 'Fruit', 'Pizza', 'Candy', 'Other'))
+    if snack == "Pizza":
+        st.write("As long as it's not Hawaiian!")
+    if snack == "Other":
+        other_snack = st.text_input("Type your favorite snack here:")
+        if other_snack:
+            st.write(f"{other_snack} sounds delicious!")
+        else:
+            st.write("I'm curious to know what your favorite snack is!")
+    else:
+        st.write(f"{snack} is a solid choice!")
+    st.write('---')
+
+
 
 
     
