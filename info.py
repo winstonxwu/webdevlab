@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "/Users/winstonxwu/Downloads/WebDevLab01/WebDevLab01/Images/RPI.JPG"
+profile_picture = "Images/RPI.JPG"
 about_me = "I'm Winston Wu, a first-year CS student at Georgia Tech. I'm from Painted Post, NY, and I love web development!"
 
 
@@ -32,9 +32,9 @@ course_data = {
     }
 experience_data = {
     "Software Engineering Intern at Corning Incorporated": (["- Designed and produced imaging system for analysis of x-ray irradiated and damaged glass samples with precision of ~10 nm",
-                                                                          "- Utilized OpenCV technology to color and search for errors and features in glass, decreasing glass feature analysis time by 30%"],"/Users/winstonxwu/Downloads/WebDevLab01/WebDevLab01/Images/maxresdefault.jpg"),
+                                                                          "- Utilized OpenCV technology to color and search for errors and features in glass, decreasing glass feature analysis time by 30%"],"Images/maxresdefault.jpg"),
     "Math Club Member":(["- Participated in Corning Community College math competition",
-                                                           "- Learned about game theory, statistics, and algebra"],"/Users/winstonxwu/Downloads/WebDevLab01/WebDevLab01/Images/FH5FVJYVkActjne.jpg"),
+                                                           "- Learned about game theory, statistics, and algebra"],"Images/FH5FVJYVkActjne.jpg"),
     "Yearbook Editor":(["- Cleaned and organized data for student portraits and names"],"Images/5xggk3cthy731.jpg")
 
 }
