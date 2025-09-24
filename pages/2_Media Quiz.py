@@ -38,10 +38,13 @@ def quiz_section():
     bImage = info.book_image
     st.image(bImage, width=200)
     book_genre = st.multiselect("Select one or more:", ['Fiction', 'Non-Fiction', 'Mystery', 'Fantasy', 'Science Fiction', 'Biography', 'Self-Help']) #NEW
+    
     if "Fantasy" in book_genre:
         st.write("I love fantasy books too! Have you read Eragon yet? The movies aren't great, but the books are amazing!")
-    else:
+    elif book_genre:
         st.write(f"I don't read as much as I used to, but those might be worth checking out!")
+    else:
+        st.write(f"Reading is good for the mind!")
 
     st.write('---')
 
