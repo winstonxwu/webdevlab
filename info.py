@@ -67,7 +67,7 @@ spoken_data = {
     "Cantonese": "Fluent"
 }
 leadership_data = {
-    "President of Corning-Painted Post High School Coding Club": (["Taught 50+ students introductory Python"],"/Users/winstonxwu/Downloads/WebDevLab01/WebDevLab01/Images/1723765595210.jpeg"),
+    "President of Corning-Painted Post High School Coding Club": (["Taught 50+ students introductory Python"],"Images/1723765595210.jpeg"),
 
 }
 activity_data={
