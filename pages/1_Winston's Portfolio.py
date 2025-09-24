@@ -73,7 +73,7 @@ def skills_section(programming_data, spoken_data):
 skills_section(info.programming_data, info.spoken_data)
 
 def activities_section(leadership_data, activity_data):
-    st.header("🧗Rock Climbing Activities")
+    st.header("🧗Activities")
     tab1, tab2 = st.tabs(["Leadership", "Community Service"])
     with tab1:
         st.subheader("🥇Leadership")
