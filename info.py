@@ -16,6 +16,9 @@ my_linkedin_url = "https://www.linkedin.com/in/winston-wu-541894313/"
 my_github_url = "https://github.com/winstonxwu"
 my_email_address = "winwu2007@gmail.com"
 
+movie_image = "Images/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg"
+book_image = "Images/Eragon_book_cover.png"
+music_image = "Images/MF_Doom_The_Arches_2.jpg"
 
 education_data = {
     'Degree': 'Bachelor of Science in Computer Science',
