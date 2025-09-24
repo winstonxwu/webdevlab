@@ -22,6 +22,6 @@ st.write("""
 Welcome to our Streamlit Web Development Lab01 app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
 1. **Winston's Portfolio**: A portfolio page to show my background, experience, and skills.
-
+2. **Media Quiz**: A short, fun quiz about favorite movie, music, and book genres!
 """)
 
